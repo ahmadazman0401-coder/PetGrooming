@@ -135,9 +135,9 @@ p { margin: 0; }
 .service-bubbles { display: grid; grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 18px; align-items: start; }
 .service-bubble { position: relative; display: flex; min-height: 270px; flex-direction: column; align-items: flex-start; justify-content: space-between; padding: 30px; border: 0; text-align: left; cursor: pointer; transition: transform .25s ease, border-radius .3s ease; }
 .service-bubble:hover { z-index: 2; transform: translateY(-8px) rotate(-1deg); }
-.service-bubble > span { font-size: .7rem; font-weight: 900; letter-spacing: .1em; }
+.service-bubble > span { margin-left: 18px; margin-top: 8px; font-size: .7rem; font-weight: 900; letter-spacing: .1em; }
 .service-bubble strong { font-family: var(--font-display); font-size: clamp(2.1rem, 3.4vw, 3.2rem); line-height: .95; text-transform: uppercase; }
-.service-bubble small { font-weight: 700; }
+.service-bubble small {  margin-left: 18px; margin-bottom: 8px; font-weight: 700; }
 .bubble-a { border-radius: 42% 58% 30% 70% / 49% 34% 66% 51%; color: var(--white); background: var(--teal); }
 .bubble-b { margin-top: 70px; border-radius: 64% 36% 52% 48% / 35% 56% 44% 65%; background: var(--orange); }
 .bubble-c { border-radius: 31% 69% 48% 52% / 55% 41% 59% 45%; background: var(--mint); }

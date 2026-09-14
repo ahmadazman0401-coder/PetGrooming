@@ -111,7 +111,7 @@ p { margin: 0; }
 .text-link { display: inline-flex; gap: 28px; margin-top: 24px; padding: 0 0 6px; border: 0; border-bottom: 2px solid var(--orange); color: var(--cream); background: transparent; font-weight: 900; cursor: pointer; }
 .transformation-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 74px 28px; }
 .transform-card { min-width: 0; }
-.transform-wide { grid-column: span 2; width: 40%; height:60%; }
+.transform-wide { grid-column: span 2; width: 50%; height:60%; }
 .transform-card:nth-child(2) { margin-top: 90px; }.transform-card:nth-child(3) { align-self: start; }.transform-card:nth-child(4) { margin-top: -30px; }
 .transform-photo { position: relative; overflow: hidden; border-radius: 34px 80px 34px 34px; background: var(--mint); }
 .transform-wide .transform-photo { border-radius: 36px 120px 36px 36px; }
